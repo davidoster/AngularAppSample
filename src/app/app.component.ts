@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'myapp';
+  title = 'This is my first NG App';
+  someStuff = "Just to try out!!!";
+  someInt = 1000;
+  
+  myFunction() {
+    return "Hello";
+  }
 }
